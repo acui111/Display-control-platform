@@ -37,7 +37,7 @@
   #scene-item{
     width: 162px;
     height: 80px;
-    margin-right: 120px;
+    margin-right: 100px;
     display:flex;
     align-items: center;
   }
@@ -48,6 +48,7 @@
   }
   #scene-item div{
     position: absolute;
+    border:1px solid white;
   }
   .active{
     border: 8px solid white;

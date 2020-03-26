@@ -189,7 +189,9 @@
       },
       //保存
       saveScene(){
-        this.$events.emit('saveScene',true);
+        if(this.$editor.menuStatus == 'add-scene'){
+          this.$events.emit('saveScene',true);
+        }
       },
       //删除
       removeScene(){

@@ -34,10 +34,10 @@
     },
     methods:{
       goToLeft(){
-        this.scrollLeft -= 282;
+        this.scrollLeft -= 246;
       },
       goToRight(){
-        this.scrollLeft += 282;
+        this.scrollLeft += 246;
       }
     }
   }
